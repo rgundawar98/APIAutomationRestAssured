@@ -1,0 +1,134 @@
+11:57:38,256  INFO devpinoyLogger:28 – ***********Generating the bearer token************
+11:57:38,258  INFO devpinoyLogger:50 – ***********Generating the bearer token************
+11:57:39,153 DEBUG BasicClientConnectionManager:161 – Get connection for route {}->http://trainingapi.jalaacademy.com:80
+11:57:39,488 DEBUG DefaultClientConnectionOperator:177 – Connecting to trainingapi.jalaacademy.com:80
+11:57:39,732 DEBUG RequestAddCookies:123 – CookieSpec selected: ignoreCookies
+11:57:39,733 DEBUG RequestAuthCache:77 – Auth cache not set in the context
+11:57:39,733 DEBUG RequestTargetAuthentication:80 – Target auth state: UNCHALLENGED
+11:57:39,734 DEBUG RequestProxyAuthentication:89 – Proxy auth state: UNCHALLENGED
+11:57:39,734 DEBUG DefaultHttpClient:677 – Attempt 1 to execute request
+11:57:39,735 DEBUG DefaultClientConnection:274 – Sending request: POST /api/signin HTTP/1.1
+11:57:39,735 DEBUG wire:73 –  >> "POST /api/signin HTTP/1.1[\r][\n]"
+11:57:39,736 DEBUG wire:73 –  >> "Accept: application/json[\r][\n]"
+11:57:39,736 DEBUG wire:73 –  >> "Content-Type: application/json[\r][\n]"
+11:57:39,736 DEBUG wire:73 –  >> "Content-Length: 55[\r][\n]"
+11:57:39,736 DEBUG wire:73 –  >> "Host: trainingapi.jalaacademy.com[\r][\n]"
+11:57:39,736 DEBUG wire:73 –  >> "Connection: Keep-Alive[\r][\n]"
+11:57:39,740 DEBUG wire:73 –  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)[\r][\n]"
+11:57:39,740 DEBUG wire:73 –  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11:57:39,740 DEBUG wire:73 –  >> "[\r][\n]"
+11:57:39,740 DEBUG headers:278 – >> POST /api/signin HTTP/1.1
+11:57:39,740 DEBUG headers:281 – >> Accept: application/json
+11:57:39,740 DEBUG headers:281 – >> Content-Type: application/json
+11:57:39,740 DEBUG headers:281 – >> Content-Length: 55
+11:57:39,741 DEBUG headers:281 – >> Host: trainingapi.jalaacademy.com
+11:57:39,741 DEBUG headers:281 – >> Connection: Keep-Alive
+11:57:39,741 DEBUG headers:281 – >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+11:57:39,741 DEBUG headers:281 – >> Accept-Encoding: gzip,deflate
+11:57:39,741 DEBUG wire:87 –  >> "{"password":"admin123","email":"admin@jalaacademy.com"}"
+11:57:42,859 DEBUG wire:73 –  << "HTTP/1.1 200 OK[\r][\n]"
+11:57:42,860 DEBUG wire:73 –  << "Connection: Keep-Alive[\r][\n]"
+11:57:42,860 DEBUG wire:73 –  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+11:57:42,861 DEBUG wire:73 –  << "x-powered-by: PHP/8.1.7[\r][\n]"
+11:57:42,861 DEBUG wire:73 –  << "cache-control: no-cache, private[\r][\n]"
+11:57:42,861 DEBUG wire:73 –  << "content-type: application/json[\r][\n]"
+11:57:42,861 DEBUG wire:73 –  << "x-ratelimit-limit: 60[\r][\n]"
+11:57:42,861 DEBUG wire:73 –  << "x-ratelimit-remaining: 59[\r][\n]"
+11:57:42,861 DEBUG wire:73 –  << "access-control-allow-origin: *[\r][\n]"
+11:57:42,861 DEBUG wire:73 –  << "content-length: 125[\r][\n]"
+11:57:42,861 DEBUG wire:73 –  << "content-encoding: gzip[\r][\n]"
+11:57:42,862 DEBUG wire:73 –  << "vary: Accept-Encoding[\r][\n]"
+11:57:42,862 DEBUG wire:73 –  << "date: Sun, 25 Sep 2022 06:27:42 GMT[\r][\n]"
+11:57:42,862 DEBUG wire:73 –  << "server: LiteSpeed[\r][\n]"
+11:57:42,862 DEBUG wire:73 –  << "platform: hostinger[\r][\n]"
+11:57:42,862 DEBUG wire:73 –  << "[\r][\n]"
+11:57:42,863 DEBUG DefaultClientConnection:259 – Receiving response: HTTP/1.1 200 OK
+11:57:42,863 DEBUG headers:262 – << HTTP/1.1 200 OK
+11:57:42,863 DEBUG headers:265 – << Connection: Keep-Alive
+11:57:42,863 DEBUG headers:265 – << Keep-Alive: timeout=5, max=100
+11:57:42,863 DEBUG headers:265 – << x-powered-by: PHP/8.1.7
+11:57:42,863 DEBUG headers:265 – << cache-control: no-cache, private
+11:57:42,863 DEBUG headers:265 – << content-type: application/json
+11:57:42,864 DEBUG headers:265 – << x-ratelimit-limit: 60
+11:57:42,864 DEBUG headers:265 – << x-ratelimit-remaining: 59
+11:57:42,864 DEBUG headers:265 – << access-control-allow-origin: *
+11:57:42,864 DEBUG headers:265 – << content-length: 125
+11:57:42,864 DEBUG headers:265 – << content-encoding: gzip
+11:57:42,864 DEBUG headers:265 – << vary: Accept-Encoding
+11:57:42,864 DEBUG headers:265 – << date: Sun, 25 Sep 2022 06:27:42 GMT
+11:57:42,864 DEBUG headers:265 – << server: LiteSpeed
+11:57:42,865 DEBUG headers:265 – << platform: hostinger
+11:57:42,867 DEBUG DefaultHttpClient:504 – Connection can be kept alive for 5000 MILLISECONDS
+11:57:42,871 DEBUG RestAssuredHttpBuilder:553 – Parsing response as: application/json
+11:57:42,872 DEBUG wire:87 –  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xab]V[0xca]M-.NLOU[0xb2]R[0xf2][0xc9]O[0xcf][0xcc]S[0xc8],V(.MNN-.N+[0xcd][0xc9][0xa9][0xd4]S[0xd2]Q*.I,)-V[0xb2]*)*M[0xd5]Q*[0xc9][0xcf]N[0xcd]S[0xb2]R21[0xb3][0xa8])[0x9]5.(3[0xf7][0xf2][0xf5][0xf][0x8][0xb7]p[0xaf]H[0xce](u21[0xf][0xc]+[0xf4][0xce].([0x8f]p[0xc9]Nqrr[0x9][0xce]u[0xf][0x8d](Q[0xaa][0x5][0x0][0xa9]j[0xb][0xa6]i[0x0][0x0][0x0]"
+11:57:42,872 DEBUG RestAssuredHttpBuilder:556 – Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+11:57:42,899 DEBUG BasicClientConnectionManager:200 – Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1d23ff23
+11:57:42,899 DEBUG BasicClientConnectionManager:225 – Connection can be kept alive for 5000 MILLISECONDS
+11:57:43,316  INFO devpinoyLogger:52 – ***Testing the Create user API for valid input*****
+11:57:43,410 DEBUG DefaultClientConnection:180 – Connection 0.0.0.0:65030<->217.21.94.159:80 closed
+11:57:43,536 DEBUG BasicClientConnectionManager:161 – Get connection for route {}->http://trainingapi.jalaacademy.com:80
+11:57:43,536 DEBUG DefaultClientConnectionOperator:177 – Connecting to trainingapi.jalaacademy.com:80
+11:57:43,557 DEBUG RequestAddCookies:123 – CookieSpec selected: ignoreCookies
+11:57:43,557 DEBUG RequestAuthCache:77 – Auth cache not set in the context
+11:57:43,557 DEBUG RequestProxyAuthentication:89 – Proxy auth state: UNCHALLENGED
+11:57:43,557 DEBUG DefaultHttpClient:677 – Attempt 1 to execute request
+11:57:43,558 DEBUG DefaultClientConnection:274 – Sending request: POST /api/users HTTP/1.1
+11:57:43,558 DEBUG wire:73 –  >> "POST /api/users HTTP/1.1[\r][\n]"
+11:57:43,558 DEBUG wire:73 –  >> "Authorization: Bearer 468|tU3pv7JMOPW8GxchuB47QVqKkpwXDkdBBDSmGUXt[\r][\n]"
+11:57:43,558 DEBUG wire:73 –  >> "Accept: application/json[\r][\n]"
+11:57:43,558 DEBUG wire:73 –  >> "Content-Type: application/json[\r][\n]"
+11:57:43,558 DEBUG wire:73 –  >> "Content-Length: 198[\r][\n]"
+11:57:43,558 DEBUG wire:73 –  >> "Host: trainingapi.jalaacademy.com[\r][\n]"
+11:57:43,559 DEBUG wire:73 –  >> "Connection: Keep-Alive[\r][\n]"
+11:57:43,559 DEBUG wire:73 –  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)[\r][\n]"
+11:57:43,559 DEBUG wire:73 –  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11:57:43,559 DEBUG wire:73 –  >> "[\r][\n]"
+11:57:43,559 DEBUG headers:278 – >> POST /api/users HTTP/1.1
+11:57:43,559 DEBUG headers:281 – >> Authorization: Bearer 468|tU3pv7JMOPW8GxchuB47QVqKkpwXDkdBBDSmGUXt
+11:57:43,559 DEBUG headers:281 – >> Accept: application/json
+11:57:43,559 DEBUG headers:281 – >> Content-Type: application/json
+11:57:43,559 DEBUG headers:281 – >> Content-Length: 198
+11:57:43,560 DEBUG headers:281 – >> Host: trainingapi.jalaacademy.com
+11:57:43,560 DEBUG headers:281 – >> Connection: Keep-Alive
+11:57:43,560 DEBUG headers:281 – >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+11:57:43,560 DEBUG headers:281 – >> Accept-Encoding: gzip,deflate
+11:57:43,560 DEBUG wire:87 –  >> "{"skills":["aws","fullstack"],"country":"india","address":"Hyderabad","gender":"male","dob":"2022-02-09","mobile":"9794907788","last_name":"Academy","first_name":"JALA","email":"jaaladem@gmail.com"}"
+11:57:43,747 DEBUG wire:73 –  << "HTTP/1.1 422 Unprocessable Entity[\r][\n]"
+11:57:43,747 DEBUG wire:73 –  << "Connection: Keep-Alive[\r][\n]"
+11:57:43,747 DEBUG wire:73 –  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+11:57:43,747 DEBUG wire:73 –  << "x-powered-by: PHP/8.1.7[\r][\n]"
+11:57:43,747 DEBUG wire:73 –  << "cache-control: no-cache, private[\r][\n]"
+11:57:43,747 DEBUG wire:73 –  << "content-type: application/json[\r][\n]"
+11:57:43,747 DEBUG wire:73 –  << "x-ratelimit-limit: 60[\r][\n]"
+11:57:43,748 DEBUG wire:73 –  << "x-ratelimit-remaining: 59[\r][\n]"
+11:57:43,748 DEBUG wire:73 –  << "access-control-allow-origin: *[\r][\n]"
+11:57:43,748 DEBUG wire:73 –  << "content-length: 116[\r][\n]"
+11:57:43,748 DEBUG wire:73 –  << "content-encoding: gzip[\r][\n]"
+11:57:43,748 DEBUG wire:73 –  << "vary: Accept-Encoding[\r][\n]"
+11:57:43,748 DEBUG wire:73 –  << "date: Sun, 25 Sep 2022 06:27:43 GMT[\r][\n]"
+11:57:43,748 DEBUG wire:73 –  << "server: LiteSpeed[\r][\n]"
+11:57:43,748 DEBUG wire:73 –  << "platform: hostinger[\r][\n]"
+11:57:43,748 DEBUG wire:73 –  << "[\r][\n]"
+11:57:43,748 DEBUG DefaultClientConnection:259 – Receiving response: HTTP/1.1 422 Unprocessable Entity
+11:57:43,749 DEBUG headers:262 – << HTTP/1.1 422 Unprocessable Entity
+11:57:43,749 DEBUG headers:265 – << Connection: Keep-Alive
+11:57:43,749 DEBUG headers:265 – << Keep-Alive: timeout=5, max=100
+11:57:43,749 DEBUG headers:265 – << x-powered-by: PHP/8.1.7
+11:57:43,749 DEBUG headers:265 – << cache-control: no-cache, private
+11:57:43,749 DEBUG headers:265 – << content-type: application/json
+11:57:43,749 DEBUG headers:265 – << x-ratelimit-limit: 60
+11:57:43,749 DEBUG headers:265 – << x-ratelimit-remaining: 59
+11:57:43,749 DEBUG headers:265 – << access-control-allow-origin: *
+11:57:43,749 DEBUG headers:265 – << content-length: 116
+11:57:43,749 DEBUG headers:265 – << content-encoding: gzip
+11:57:43,749 DEBUG headers:265 – << vary: Accept-Encoding
+11:57:43,750 DEBUG headers:265 – << date: Sun, 25 Sep 2022 06:27:43 GMT
+11:57:43,750 DEBUG headers:265 – << server: LiteSpeed
+11:57:43,750 DEBUG headers:265 – << platform: hostinger
+11:57:43,750 DEBUG DefaultHttpClient:504 – Connection can be kept alive for 5000 MILLISECONDS
+11:57:43,750 DEBUG RestAssuredHttpBuilder:553 – Parsing response as: application/json
+11:57:43,750 DEBUG wire:73 –  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x85][0x8c][0xbb][\n]"
+11:57:43,750 DEBUG wire:87 –  << "[0x83]P[0x14][0x4]e[0xd9]*[0x82][0x4][0xd2][0xde][0xef][0xb0][0x13][0x8b]#.*[0xb9][0xf]87[0x8d][0x88][0xff][0x1e]0XJ[0xba]Y[0x98][0x9d][0x9d]I[0xb5][0xda],[0x6]v[0x8b][0xa0]dk[0xc4]b[0x15][0x16]]6m[0x18][0xa5][0x8c][0x8f][0xbd][0x95][0x9f]xX[0x9e][0xf0]B*.[0xc8][0xbd]x[0xc3][0x96]'T[0x86][0x9d][0xe7][0x99][0xa1][0xff]_[0xe2][0xd0]2[0x95]q[0x8d][0xba][0xf4][0xdf][0xba][0xf7][0x8f][0xe3][0xb][0xfd][0xf0]h~[0xab][0x0][0x0][0x0]"
+11:57:43,750 DEBUG RestAssuredHttpBuilder:556 – Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+11:57:43,752 DEBUG BasicClientConnectionManager:200 – Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@19e21f89
+11:57:43,752 DEBUG BasicClientConnectionManager:225 – Connection can be kept alive for 5000 MILLISECONDS
